@@ -1,0 +1,10 @@
+name: CI Test
+
+on: [push]
+
+jobs:
+  success-message:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Show success message
+        run: echo "✅ GitHub Action triggered on push!"
